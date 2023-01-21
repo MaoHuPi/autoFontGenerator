@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>HuPi Monster Font</title>
+    <style>
+        @font-face {
+            font-family: HuPiMonsterFont;
+            src: url('fonts/HuPiMonsterFont.ttf');
+            /* src: url('fonts/HuPiMonsterFont.svg'); */
+        }
+        html, body, textarea {
+            margin: 0px;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        textarea {
+            padding: 1vw;
+            color: #ededed;
+            font-size: 3vw;
+            font-family: HuPiMonsterFont;
+            background-color: #000;
+            border: none;
+            outline: none;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <textarea name="" id="mainTextarea"></textarea>
+    <script>
+    var log = {
+        "數字": `1234567890`, 
+        "標點": `!@#$%^&*()-=_+[]{}|\\/?~\`<>.,`, 
+        "字母": `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`, 
+        "中文": `微風迎客，軟語伴茶`, 
+    }
+    document.querySelector('#mainTextarea').value = `HuPi Monster Font\n\n${Object.entries(log).map(kvPair => kvPair.join(': ')).join('\n')}\n\n總計: ${Object.entries(log).map(kvPair => kvPair[1]).join('').length}個字`;
+    </script>
+</body>
+</html>

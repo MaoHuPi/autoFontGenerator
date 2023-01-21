@@ -1,0 +1,79 @@
+{
+    "font": {
+        "props": {
+            "ascent": 800,
+            "descent": 200,
+            "em": 1000,
+            "family": "HuPiMonsterFont", 
+            "lang": "English (US)", 
+            "style": "Regular", 
+            "encoding": "UnicodeFull"
+        },
+        "transform": {
+            "scale": [2], 
+            "translate": [0, -200]
+        }, 
+        "input": "output", 
+        "sfd": "fonts/HuPiMonsterFont.sfd", 
+        "output": [
+            "fonts/HuPiMonsterFont.ttf"
+        ],
+        "glyphs": {
+            "*": {
+                "src": "*", 
+                "left_side_bearing": 100, 
+                "right_side_bearing": 100
+            }
+        }
+    }, 
+    "elements": [
+        {
+            "core": [
+                [0, 0, 0], 
+                [0, 1, 0], 
+                [0, 0, 0]
+            ], 
+            "path": "elements/11.jpg"
+        }, 
+        {
+            "core": [
+                [0, 0, 0], 
+                [0, 1, 1], 
+                [0, 1, 0]
+            ], 
+            "path": "elements/111221.jpg"
+        }, 
+        {
+            "core": [
+                [0, 0, 0], 
+                [1, 1, 0], 
+                [0, 1, 0]
+            ], 
+            "path": "elements/101121.jpg"
+        }, 
+        {
+            "core": [
+                [0, 1, 0], 
+                [0, 1, 1], 
+                [0, 0, 0]
+            ], 
+            "path": "elements/011112.jpg"
+        }, 
+        {
+            "core": [
+                [0, 1, 0], 
+                [1, 1, 0], 
+                [0, 0, 0]
+            ], 
+            "path": "elements/011011.jpg"
+        }, 
+        {
+            "core": [
+                [1, 1, 1], 
+                [1, 1, 1], 
+                [1, 1, 1]
+            ], 
+            "path": "elements/000102101112202122.jpg"
+        }
+    ]
+}
